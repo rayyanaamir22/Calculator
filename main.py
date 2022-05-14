@@ -29,12 +29,12 @@ def useAgain():
 # Program loop
 
 while True:
-  print('C A L C U L A T O R    ({0})' .format(calcFunctions.currentUnit))
+  print(f'C A L C U L A T O R    ({cf.currentUnit})')
 
-  calcFunctions.getCalcOperation()
-  calcFunctions.setOperationSymbol()
-  calcFunctions.getCalcInput()
-  calcFunctions.returnCalcOutput()
+  cf.getCalcOperation()
+  cf.setOperationSymbol()
+  cf.getCalcInput()
+  cf.returnCalcOutput()
   if useAgain():
     continue
   else:
